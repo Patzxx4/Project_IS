@@ -161,7 +161,7 @@ def development_ml():
     </style>
     """, unsafe_allow_html=True)
     
-
+    st.markdown("<h1 class='main-header'>PLEASE USE LIGHT THEME</h1>", unsafe_allow_html=True)
     st.markdown("<h1 class='main-header'>Development Machine Learning</h1>", unsafe_allow_html=True)
 
     st.markdown("""
@@ -521,6 +521,7 @@ def development_nn():
     </style>
     """, unsafe_allow_html=True)
 
+    st.markdown("<h1 class='main-header'>PLEASE USE LIGHT THEME</h1>", unsafe_allow_html=True)
     st.markdown("<h1 class='main-header'>Development Neural Network</h1>", unsafe_allow_html=True)
 
     st.markdown("""
@@ -854,7 +855,7 @@ def ml_demo():
     <div class="decoration" style="background: #7B1FA2; top: 10%; left: 5%;"></div>
     <div class="decoration" style="background: #4527A0; bottom: 20%; right: 10%;"></div>
     """, unsafe_allow_html=True)
-    
+    st.markdown("<h1 class='main-header'>PLEASE USE LIGHT THEME</h1>", unsafe_allow_html=True)
     # Header
     st.markdown("<h1 class='main-header'>✨ ทำนายราคาโน้ตบุ๊ค AI</h1>", unsafe_allow_html=True)
 
@@ -1120,6 +1121,8 @@ def nn_demo():
     </style>
     """, unsafe_allow_html=True)
     
+    st.markdown("<h1 class='main-header'>PLEASE USE LIGHT THEME</h1>", unsafe_allow_html=True)
+
     # Header
     st.markdown("<h1 class='main-header'>✨ ทำนายอายุขัย AI</h1>", unsafe_allow_html=True)
     
@@ -1272,6 +1275,8 @@ def nn_demo():
 
 
 def references():
+
+    st.markdown("<h1 class='main-header'>PLEASE USE LIGHT THEME</h1>", unsafe_allow_html=True)
     st.markdown("<h1 class='main-header'>เอกสารและแหล่งข้อมูลอ้างอิง</h1>", unsafe_allow_html=True)
     
     # CSS for better Thai text rendering and overall styling
@@ -1392,6 +1397,8 @@ def references():
         }
     </style>
     """, unsafe_allow_html=True)
+    
+  
     
     # บทความวิจัย
     st.markdown("<h2 class='sub-header'>บทความวิจัยและวิชาการ</h2>", unsafe_allow_html=True)
